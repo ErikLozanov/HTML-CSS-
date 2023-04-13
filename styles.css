@@ -74,7 +74,7 @@ body {
   width: 400px;
   border-radius: 6px;
   overflow: hidden;
-  color: white;
+  color: bisque;
   aspect-ratio: 1/1.5;
   position: relative;
 }
@@ -121,7 +121,7 @@ body {
 .species-card:hover .species-img-bg {
     transform: scale(1.2);
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 .species-card::before {
     content: "";
@@ -132,4 +132,9 @@ body {
     left: 0;
 
     z-index: 1;
+  }
+
+  article {
+    margin-left: 50%;
+    transform: translate(-50%);
   }
