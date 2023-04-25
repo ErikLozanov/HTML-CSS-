@@ -1,0 +1,50 @@
+/* color="#f6f8f9" lightgray */
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.hero {
+    max-width: 70%;
+    background-color: #f6f8f9;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.text {
+    margin: 100px 0 100px 60px;
+}
+.small-title {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.title {
+    margin-bottom: 26px;
+    font-size: 40px;
+}
+.info {
+    max-width: 50%;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: rgb(153, 144, 144);
+}
+.btn-contact {
+    border: unset;
+    background-color: #7573f6;
+    border-color: #7573f6;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-learnmore {
+    border: unset;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 9px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
