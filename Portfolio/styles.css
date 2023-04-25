@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+/* 
+cards-background : #efefef
+ */
+
+html {
+  font-family: Raleway, sans-serif;
+}
+.card {
+    background-color: #efefef;
+}
+/* HEADER */
+    header .nav {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+    }
+/* HEADER */
+/* MAIN */
+main {
+    margin: 20px 30px;
+}
+/* MAIN */
+/* FIRST SECTION */
+#template {
+    display: flex;
+    align-items: center;
+}
+
+#template .info {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#template .info .title {
+    font-size: 45px;
+    font-weight: lighter;
+    color: #747474;
+}
+#template .info .title b {
+    font-weight: 900;
+    color: black;
+}
+#template .info .text {
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+#template .info .line {
+    height: 80px;
+    border-left: 1px solid black;
+}
