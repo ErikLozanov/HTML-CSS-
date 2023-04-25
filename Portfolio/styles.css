@@ -24,27 +24,33 @@ html {
 /* MAIN */
 main {
     margin: 20px 30px;
-}
-/* MAIN */
-/* FIRST SECTION */
-#template {
-    display: flex;
-    align-items: center;
-}
-
-#template .info {
-    margin-left: 100px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+/* MAIN */
+/* FIRST SECTION */
+.card{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 80vh;
+}
 
-#template .info .title {
+.card .info {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 40%;
+}
+
+.card .info .title {
     font-size: 45px;
     font-weight: lighter;
     color: #747474;
 }
-#template .info .title b {
+.card .info .title b {
     font-weight: 900;
     color: black;
 }
@@ -56,4 +62,46 @@ main {
 #template .info .line {
     height: 80px;
     border-left: 1px solid black;
+}
+#template .img-hero {
+    align-self: flex-end;
+    width: 50%;
+}
+
+/* FIRST SECTION */
+/* SECOND SECTION */
+#name {
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 0 120px;
+    gap: 60px; 
+    position: relative; 
+}
+#name .info .title-and-line {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 40px;
+}
+#name .info .title-and-line .horizontal {
+    width: 80px;
+    border-top: 1px solid black;
+    align-self: center;
+}
+#name .info .title-and-line .title {
+    text-align: center;
+}
+#name .info .text {
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.socials {
+    display: flex;
+    gap: 20px;
+    padding-inline-start: 0px;
+}
+.socials .social {
+    padding: 4px 8px;
+    background-color: #909090;
+    color: white;
 }
