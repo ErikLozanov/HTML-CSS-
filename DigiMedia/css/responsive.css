@@ -1,0 +1,102 @@
+@media screen and (max-width:600px) {
+
+    /* HEADER */
+    .hero img {
+        display: none;
+    }  
+
+    .container .navbar {
+        justify-content: center;
+    }
+    .container .navbar .navbar-brand {
+        margin-right: 0;
+        
+    }
+    .container .navbar .navbar-brand img {
+        width: 100px;
+        height: 50px;
+    }
+
+    #home .container {
+        margin-bottom: -180px;
+    }
+
+    .container-fluid .container {
+        text-align: center;
+    }
+    .container-fluid .container .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .container-fluid .container .hero-btns a {
+        width: 50%;
+    }
+     /* HEADER */
+     /* ABOUT US SECTION */
+    #about-us{
+        padding-top: 0px;
+    }
+
+    #about-us .container-fluid {
+        width: 100%;
+    }
+
+    #about-us .container-fluid .container .hero-btns a {
+        width: 50%;
+    }
+
+    .service-txt h2 {
+        font-size: 50px;
+    }
+    .container-fluid .side-img img{
+        left: 1px;
+    }
+    .row .col-12 .hero-btns {
+        margin-bottom: 80px;
+    }
+
+    .cards .col-12 {
+        margin: auto;
+        max-width: 100%;
+    }
+    .cards .col-12:nth-child(1) {
+        margin-bottom: 40px;
+    }
+    .cards .col-12 .service-box {
+        text-align: left;
+    }
+    /* ABOUT US SECTION */
+    /* SECTION ABOUT */
+    .about .container .row {
+        gap: 70px;
+    }
+    .about .container .row:nth-child(1) {
+        text-align: center;
+    }
+    /* SECTION ABOUT */
+    /* SECTION CONTACT US */
+    #contact-us .container .row .col-12 {
+        text-align: center;
+    }
+   #contact-us .container .col-12 .hero-btns {
+    display: none;
+   }
+    /* SECTION CONTACT US */
+   /* FOOTER */
+   footer .container .row {
+    flex-direction: column;
+    align-content: center;
+    max-width: 80%;
+    margin: auto;
+   }
+   footer .container .row .contact-nav {
+    display: flex;
+    flex-direction: column;
+   }
+   footer .container .row .col-12 h3{
+    text-align: center;
+   }
+}
+
+
