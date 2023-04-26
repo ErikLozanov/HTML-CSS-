@@ -150,3 +150,54 @@ main {
 
 
 /* FIFTH SECTION */
+/* SIXTH SECTION */
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    gap: 30px;
+    text-align: center;
+    height: 70vh;
+    margin-bottom: 40px;
+}
+#contact  .title {
+    font-size: 45px;
+    font-weight: lighter;
+    color: #747474;
+}
+#contact  .title b {
+    font-weight: 900;
+    color: black;
+}
+#contact .inputs {
+    display: grid;
+    width: 700px;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "email subject"
+    "message message"
+    "send send";
+}
+#contact .inputs .msg {
+resize: none;
+grid-area: message;
+padding: 10px;
+}
+#contact .inputs .text {
+    width: 100%;
+    padding: 10px;
+}
+#contact .inputs button {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    grid-area: send;
+}
+
+.copyright {
+    margin-top: 80px;
+}
+/* SIXTH SECTION */
