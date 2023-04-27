@@ -26,6 +26,10 @@ body {
 
 /* MAIN  */
 /* Hero SECTION */
+
+#hero {
+    height: 100vh;
+}
 #hero .background-img {
   position: absolute;
   height: 100vh;
@@ -52,7 +56,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.6651583710407241) 25%,
-    rgba(0, 0, 0, 0) 46%,
+    rgba(20, 18, 18, 0) 36%,
     rgba(0, 0, 0, 0.7104072398190044) 65%
   );
   z-index: -1;
@@ -83,4 +87,25 @@ body {
 
 #hero .text-wrapper .email-forms .days-free {
     padding: 0.4rem 1rem;
+}
+
+/* 640PX */
+@media screen and (min-width:640px) {
+    #hero .text-wrapper {
+        margin-top: -20px;
+        gap: 1rem;
+    }
+    #hero .text-wrapper  .email-forms{
+        gap: 0;
+        height: 50px;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    #hero .text-wrapper  .email-forms .email-input {
+        width: 72%;
+        padding: 0.8rem;
+    }
+    #hero .text-wrapper  .email-forms .days-free {
+        padding: 1rem;
+    }
 }
