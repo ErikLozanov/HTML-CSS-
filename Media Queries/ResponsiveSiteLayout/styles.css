@@ -107,5 +107,6 @@ body {
     }
     #hero .text-wrapper  .email-forms .days-free {
         padding: 1rem;
+        width: 100%;
     }
 }
