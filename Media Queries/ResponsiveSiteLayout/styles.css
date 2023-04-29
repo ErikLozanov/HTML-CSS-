@@ -128,7 +128,7 @@ body {
      }
 
     #hero .text-wrapper {
-        padding: 8rem 7rem;
+        padding: 8rem 7rem 0 7rem;
         max-width: 1200px;
         margin: auto;
     }
@@ -152,7 +152,7 @@ body {
         font-size: 1.5rem;
     }
 }
-/* SECOND SECTION */
+/* SECOND, THIRD AND FOURTH SECTION*/
 .tabs {
     background-color: black;
     padding: 2.5rem 1.5rem;
@@ -164,6 +164,17 @@ body {
     border-bottom: 8px solid var(--clr-bg-gray);
 }
 
-.tabs img {
-    margin-top: 2rem;
+@media screen and (min-width:1024px){
+    .tabs {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .tabs .text-wrapper .title{
+        font-size: 2rem;
+    }
+    .second {
+        flex-direction: row-reverse;
+    }
 }
