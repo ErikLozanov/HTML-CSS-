@@ -1,12 +1,13 @@
 :root {
   --clr-red: #e51510;
   --clr-white: #fff;
+  --clr-bg-gray: #222222;
 }
 
 body {
-  padding: 0 1rem;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--clr-white);
+  background-color: var(--clr-bg-gray);
 }
 
 /* HEADER */
@@ -15,6 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: -1.6rem;
+  padding: 0 1rem;
 }
 .btn {
   border: none;
@@ -28,7 +30,8 @@ body {
 /* Hero SECTION */
 
 #hero {
-    height: 100vh;
+    padding: 0 1rem;
+    border-bottom: 8px solid var(--clr-bg-gray);
 }
 #hero .background-img {
   position: absolute;
@@ -88,7 +91,9 @@ body {
 #hero .text-wrapper .email-forms .days-free {
     padding: 0.4rem 1rem;
 }
-
+#hero .text-wrapper .last {
+    padding: 0 0 3rem 0;
+}
 /* 640PX */
 @media screen and (min-width:640px) {
     #hero .text-wrapper {
@@ -146,4 +151,19 @@ body {
         padding: 1.5rem;
         font-size: 1.5rem;
     }
+}
+/* SECOND SECTION */
+.tabs {
+    background-color: black;
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 0.75rem;
+    border-bottom: 8px solid var(--clr-bg-gray);
+}
+
+.tabs img {
+    margin-top: 2rem;
 }
