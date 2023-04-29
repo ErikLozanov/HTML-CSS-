@@ -100,6 +100,7 @@ body {
         height: 50px;
         flex-direction: row;
         overflow: hidden;
+        justify-content: center;
     }
     #hero .text-wrapper  .email-forms .email-input {
         width: 72%;
@@ -107,6 +108,42 @@ body {
     }
     #hero .text-wrapper  .email-forms .days-free {
         padding: 1rem;
-        width: 100%;
+    }
+}
+
+/* 1024PX ++ */
+
+@media screen and (min-width:1024px) {
+    .header img {
+       width: 200px; 
+    }
+    .header .sign-in {
+        padding: .75rem 1.25rem; 
+        margin-right: 30px;
+     }
+
+    #hero .text-wrapper {
+        padding: 8rem 7rem;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #hero .text-wrapper .title {
+        font-size: 3rem;
+    }
+    #hero .text-wrapper .text-info {
+        font-size: 1.3rem;
+    }
+    #hero .text-wrapper .email-forms {
+        height: 70px;
+    }
+    #hero .text-wrapper  .email-forms .email-input {
+        width: 65%;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+    #hero .text-wrapper  .email-forms .days-free {
+        padding: 1.5rem;
+        font-size: 1.5rem;
     }
 }
