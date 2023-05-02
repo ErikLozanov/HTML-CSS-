@@ -270,4 +270,16 @@ body {
 footer {
   color: var(--clr-text-gray);
   background-color: black;
+  margin-top: 8px;
+  padding: 2rem;
+}
+
+footer .items {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+}
+
+footer .items .link {
+  all: unset;
+  font-size: 14px;
 }
