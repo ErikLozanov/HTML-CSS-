@@ -273,13 +273,22 @@ footer {
   margin-top: 8px;
   padding: 2rem;
 }
+footer .questions {
+  margin-bottom: 20px;
+}
 
 footer .items {
   display: grid;
   grid-template-columns: repeat(2, 150px);
+  padding-inline-start: 0;
+  gap: 6px;
 }
 
 footer .items .link {
   all: unset;
   font-size: 14px;
+}
+
+footer .netflix{
+  margin-top: 20px;
 }
