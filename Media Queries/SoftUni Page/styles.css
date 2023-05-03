@@ -1,3 +1,5 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
 :root {
   --clr-blue: #54536c;
   --clr-purple: #9c5ac3;
@@ -38,6 +40,22 @@ header .login {
   cursor: pointer;
 }
 /* FIRST SECTION */
+.bg-image {
+  content: "";
+  background-color: #54536c;
+  color: rgb(114, 114, 114);
+  border-radius: 100%;
+  position: absolute;
+  padding: 12rem;
+  right: 0;
+  bottom: 50px
+}
+.bg-image i {
+    font-size: 15rem;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
 #first {
   background: rgb(234, 234, 234);
   background: linear-gradient(
@@ -51,21 +69,25 @@ header .login {
   padding: 3rem 10rem 3rem 6rem;
   gap: 5rem;
   align-items: center;
+  position: relative;
+  overflow: hidden;
 }
-
+#first .diplomas {
+    z-index: 1;
+}
 #first .info .title {
-    margin-bottom: 1rem;
-    font-weight: normal;
-    font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 #first .info .text-info {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
 }
 
 #first .info .text-info2 {
-    line-height: 1.8;
-    font-size: 1rem;
-    font-style: italic;
+  line-height: 1.8;
+  font-size: 1rem;
+  font-style: italic;
 }
