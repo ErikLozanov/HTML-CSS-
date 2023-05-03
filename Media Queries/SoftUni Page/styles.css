@@ -48,8 +48,11 @@ header .login {
   );
   color: var(--clr-blue);
   display: flex;
-  padding: 3rem 6rem;
+  padding: 3rem 10rem 3rem 6rem;
+  gap: 5rem;
+  align-items: center;
 }
+
 #first .info .title {
     margin-bottom: 1rem;
     font-weight: normal;
@@ -58,5 +61,11 @@ header .login {
 
 #first .info .text-info {
     font-size: 1.1rem;
-    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#first .info .text-info2 {
+    line-height: 1.8;
+    font-size: 1rem;
+    font-style: italic;
 }
