@@ -8,15 +8,20 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
+/* HEADER */
 header {
   display: flex;
   align-items: center;
   gap: 2rem;
   padding: 1rem 5rem 2rem 5rem;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
 }
 
 header .logo {
-  margin-right: 35rem;
+  margin-right: 35%;
   transform: scale(1.1);
 }
 
@@ -157,7 +162,6 @@ footer {
 footer h3 {
   color: var(--clr-purple);
   margin-bottom: 0.75rem;
-  font-size: 1.1rem;
 }
 footer .socials .social {
   display: flex;
@@ -172,7 +176,7 @@ footer a {
 footer ul {
   padding-inline-start: 40px;
   padding: 0px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 footer .socials .social li i {
   color: #fff;
