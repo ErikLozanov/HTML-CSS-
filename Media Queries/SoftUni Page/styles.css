@@ -157,7 +157,7 @@ footer {
 footer h3 {
   color: var(--clr-purple);
   margin-bottom: 0.75rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 footer .socials .social {
   display: flex;
@@ -167,7 +167,6 @@ footer .socials .social {
 footer a {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
   line-height: 2;
 }
 footer ul {
@@ -176,11 +175,9 @@ footer ul {
   margin-bottom: 3rem;
 }
 footer .socials .social li i {
-  font-size: 2.5rem;
   color: #fff;
 }
 footer .socials p {
   color: #fff;
-  font-size: 1.5rem;
   line-height: 2;
 }
