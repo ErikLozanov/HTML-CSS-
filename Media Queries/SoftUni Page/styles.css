@@ -1,0 +1,62 @@
+:root {
+  --clr-blue: #54536c;
+  --clr-purple: #9c5ac3;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 5rem 2rem 5rem;
+}
+
+header .logo {
+  margin-right: 35rem;
+  transform: scale(1.1);
+}
+
+header .navigation .nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+header .navigation .nav-list li a {
+  text-decoration: none;
+  color: var(--clr-blue);
+  font-weight: bold;
+}
+
+header .login {
+  all: unset;
+  background-color: var(--clr-purple);
+  padding: 6px 16px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* FIRST SECTION */
+#first {
+  background: rgb(234, 234, 234);
+  background: linear-gradient(
+    180deg,
+    rgba(234, 234, 234, 1) 5%,
+    rgba(255, 255, 255, 1) 15%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: var(--clr-blue);
+  display: flex;
+  padding: 3rem 6rem;
+}
+#first .info .title {
+    margin-bottom: 1rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+#first .info .text-info {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
