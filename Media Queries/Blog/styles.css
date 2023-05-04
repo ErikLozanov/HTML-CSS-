@@ -1,0 +1,52 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: lightgray;
+}
+.hero {
+background-color: #f6e1b7;
+display: flex;
+padding: 3rem 2rem;
+justify-content: center;
+gap: 2rem;
+width: 800px;
+margin: auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 1rem;
+}
+img {
+    width: 260px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #66545e;
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin-top: 1rem;
+}
+li {
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #fff;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.info li,p {
+    color: #64515b;
+    font-weight: bold;
+}
