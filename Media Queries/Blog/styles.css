@@ -4,6 +4,7 @@ html {
 }
 body {
     background-color: lightgray;
+    height: 100vh;
 }
 .hero {
 background-color: #f6e1b7;
@@ -12,7 +13,7 @@ padding: 3rem 2rem;
 justify-content: center;
 gap: 2rem;
 width: 800px;
-margin: auto;
+margin: 10% auto;
 }
 .cards {
     display: grid;
