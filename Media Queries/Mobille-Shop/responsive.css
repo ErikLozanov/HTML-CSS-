@@ -66,6 +66,7 @@
 }
 .home-footer1 {
     flex-direction: column-reverse;
+    padding-bottom: 1rem;
 }
 .home-links-container {
     flex-direction: column;
