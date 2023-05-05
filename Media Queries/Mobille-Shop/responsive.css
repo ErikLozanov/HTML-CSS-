@@ -52,4 +52,23 @@
 .home-content {
     margin-bottom: 1rem;
 }
+.blog-post-card-blog-post-card {
+    max-width: 100%;
+}
+.blog-post-card-blog-post-card img {
+    width: 100%;
+}
+.section-heading-section-heading h1 span {
+    font-size: 30px;
+}
+.blog-post-card-text span{
+    font-size: 30px;
+}
+.home-footer1 {
+    flex-direction: column-reverse;
+}
+.home-links-container {
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
 }
