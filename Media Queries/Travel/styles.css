@@ -84,6 +84,7 @@ header .hero p{
     grid-template-columns: repeat(3, 300px);
     justify-content: center;
     gap: 3rem;
+    padding-bottom: 8rem;
 }
 .cards .card img {
     width: 300px;
