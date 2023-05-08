@@ -129,5 +129,20 @@ footer ul li a {
     line-height: 2.5;
 }
 footer h1 {
+    margin-right: 15rem;
+}
 
+footer .socials {
+    margin-left: 15rem; 
+    text-align: center;
+}
+footer .socials i {
+    font-size: 1.5rem;
+}
+footer .socials p {
+    margin-bottom: .5rem;
+}
+footer .socials i:nth-child(3) {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
